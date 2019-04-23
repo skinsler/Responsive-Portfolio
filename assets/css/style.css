@@ -217,22 +217,32 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  body {
-    font-size: 12px;
-  }
+
 }
 
 @media screen and (max-width: 760px) {
-  body {
-    font-size: 10px;
-  }
+
   
 }
 
 @media screen and (max-width: 640px) {
-  body {
-    font-size: 6px;
+
+  header {
+    position: static;
   }
   
+
+  .main-section {
+    float: none;
+    width: 100%;
+
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
+
 }
 
